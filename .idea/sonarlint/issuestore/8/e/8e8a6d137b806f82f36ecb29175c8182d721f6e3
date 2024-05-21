@@ -1,0 +1,23 @@
+
+‰	java:S112¢"FDefine and throw a dedicated exception instead of using a generic one.(ñæ–¾8šåÎÍî1J$58961300-0f8d-4658-9b14-af2334fbfa39
+	java:S112­"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8›åÎÍî1J$b193293d-96f8-48f5-b9de-946f411aa5d1
+	java:S112¯"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8›åÎÍî1J$5c1e0c91-7bbc-4076-8844-2f3c6fe520ef
+	java:S112±"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8›åÎÍî1J$671330af-772b-4cb6-a928-8e27cdefda04
+~
+java:S1141€"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8åÎÍî1J$8f06bfb8-dbb9-41b1-80d9-172ea0497af5
+š
+java:S3776I"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.(ŞÎ–¸üÿÿÿÿ8­åÎÍî1J$c341f03b-efa1-42a8-89db-d731d6b6dbd8
+
+java:S2147®"ECombine this catch with the one at line 172, which has the same body.(âÃƒŠıÿÿÿÿ8µåÎÍî1J$41f70bed-b6be-4db5-947a-5e1b779876a4
+‰
+java:S2147°"ECombine this catch with the one at line 174, which has the same body.(”ı¾8µåÎÍî1J$f2701da9-e0e6-4545-9160-1ac765ac8221
+k	java:S108Ç")Either remove or fill this block of code.(Õœ8ÂåÎÍî1J$34bd47c3-d845-4bd4-b949-a60273ee1fbf
+~
+java:S1172Í":Remove this unused method parameter "userInfoEndpointUri".(í¹¤™8ÅåÎÍî1J$ea0f6953-3d5b-4cd5-8633-360ce87bcb65
+­
+java:S6201Ø"dReplace this instanceof check and cast with 'instanceof UserInfoErrorResponse userinfoerrorresponse'(ÂÓ²ßşÿÿÿÿ8ÌåÎÍî1J$3b33de4b-36e7-41cf-9a66-636bd51b431c
+l	java:S108ç")Either remove or fill this block of code.(å¥‡8ÎåÎÍî1J$12dcea89-07e6-4b5b-8fa7-44191156f754
+{
+java:S1068@"3Remove this unused "EXPIRATION_TIME" private field.(²Ö²«øÿÿÿÿ8ĞåÎÍî1J$1e1bfb0d-ac1e-45f7-a024-2add586df964
+
+java:S6541I"ÅA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 82 to 64, Complexity from 21 to 14, Nesting Level from 4 to 2, Number of Variables from 24 to 6.(ŞÎ–¸üÿÿÿÿ8ÔåÎÍî1J$9eabc817-861c-463b-918a-4856c118e637

@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: client
+server:
+  port: 8081
+token:
+  public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmR9b5Tx68HW2mp3Dsb1VB+By3FplF1Wtj4Gx5Rac+IcVIx6QoXSlrtx1m2y8QQGRS8eyCnRHt2GTahMgNkCGrNlxaTXfMgaGWaA5Dn0TtGM/e/yzpuKAkB3PghOoRKpMsFlce+33tOz45vIyWWbm2EZ2S7ZwqVz7JreipFKUdrdHN8tpVJEPln0RxNLz+AEPfr4aCK0G3QHugxSe0cVArMwdOhkEoUdaISzS5VizzEyaIyHRdV7A+1nHXeo1eYJ4Sv5r4XDPjk76aBO5Avds8HTvMToAp9cdFZ6FK+ND51gohtHPuBSIAhmEevPy7KIk4oN4c1HfAzMqhCbYa+LzyQIDAQAB

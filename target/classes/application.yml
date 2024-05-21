@@ -1,0 +1,37 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/pac4j
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+pac4j:
+  oidc:
+    oidc-properties:
+      client-id: pac4j
+      discovery-uri: https://scats-auth.tfnsw-is-scats-nonprod.aws.ac.transport.nsw.gov.au/auth/realms/dev/.well-known/openid-configuration
+      scope: openid email profile phone
+      secret: GUHZKEjFwu60Vuz65o9MqCyfYi1WdONX
+    jwt-keys:
+      private-key: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCZH1vlPHrwdbaancOxvVUH4HLcWmUXVa2PgbHlFpz4hxUjHpChdKWu3HWbbLxBAZFLx7IKdEe3YZNqEyA2QIas2XFpNd8yBoZZoDkOfRO0Yz97/LOm4oCQHc+CE6hEqkywWVx77fe07Pjm8jJZZubYRnZLtnCpXPsmt6KkUpR2t0c3y2lUkQ+WfRHE0vP4AQ9+vhoIrQbdAe6DFJ7RxUCszB06GQShR1ohLNLlWLPMTJojIdF1XsD7Wcdd6jV5gnhK/mvhcM+OTvpoE7kC92zwdO8xOgCn1x0VnoUr40PnWCiG0c+4FIgCGYR68/LsoiTig3hzUd8DMyqEJthr4vPJAgMBAAECggEAMgddaoH+tvb24QCf0kBGemrajGVadyvOp78bxPpE8iyMeut/HMl0YrP0FwKJZYHiG4zU/nZsgh124Sb7lM4zUmE/HT11Pa6FEd54FeRG3l64/MUdW27Qy4V56YmLplev88RWo8Ul9C6iyi4ixjQJQ2uONgGXQLa49jb0hFTY3gpVT98xmTVsIELelY0uD854/U/1fiJrVHsEd0Z3lozgR9V0QQ1pL1Z+npWHHJ48svXvfQl3SwcYFbS9rjWZ+8q5TopiERNDgF9td83ZqdNQ9/7IWO1XXkpypiozsoy1jomwDZfwbUyHw4g69tXe+vPtjPjZscZN/6ddsXccr7pp0wKBgQC9Q0C5eNnjqwS0scS8ENCF4rOjS+aAXSC4rgfv4ycHmL63L/oqK2u+YxUZG3yhEx/bjo1bv02do4zCYBDUOHlDAc71q6FTfmqJkeql61ZNLolvyn2FJk4183v+Z74NpRdj74GVFCNP0tvosyF0OUhzq/IUECD+025yodvCRGGzgwKBgQDPHbqU4azWgCaF6/s7Qb28auXaHhPUuHALfOO2h5pPPE9kg95lz/D/XKcKowFy2amgrHfDKO0SklTtMEM+plVk7Qj7NIV0VMUEbRQd4tn7RWq7PJu7gL92jsiRYsGBtTWfy1OTjr1NJ2pvq2G7SbGMVMr/lQELQFQfOXhaz7s9wwKBgEbL2HNIrKDIQTtiYAhFdesPMUk9RBzyOSI8H0Xxv5DM51JZBQgvM9+E6sh4ircqEzmq6l/OgLceDbJMAx+PfHS/QW6OZAt6d1m8lny4OpEmfkyt/yQGfy0ZRmGU5vftsIE2f0+Ht+nNI2u5TiNOpjZ2tFgi7GTGLEN/HlheAfoHAoGAT/veGzLPyYJx3hQU0HyB5mqt2z70T5juhDE1yz6w49qZmmqmj1Dvc953D8+FdrICJO+VzINYkmx6aaLSxTX9El3Lsx9ETnmSIDRzqVr67WOQZUBxr8Z3qjRX1nV53zp4u/4Mh5Z/GnWXUAqyUl6SN2xjfLIxVgQAuJI8HW3NlHsCgYEAti0W//SMbfVU7JQED8FrbMse0Z1l0vwRtDaJGfd/t0xg4mRp5Mg2qi7o0zXW9IBZ09cSpi+/NMxHjP30rC/ZbcZC3RfZDUMnLYTPOets/ONZTsXg8fr3zOI05TnWvIHb3bTrc7Utg+jOZ4ROf3ykKaOOoTck7OYt7ThkRBozlsc=
+      public-key: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmR9b5Tx68HW2mp3Dsb1VB+By3FplF1Wtj4Gx5Rac+IcVIx6QoXSlrtx1m2y8QQGRS8eyCnRHt2GTahMgNkCGrNlxaTXfMgaGWaA5Dn0TtGM/e/yzpuKAkB3PghOoRKpMsFlce+33tOz45vIyWWbm2EZ2S7ZwqVz7JreipFKUdrdHN8tpVJEPln0RxNLz+AEPfr4aCK0G3QHugxSe0cVArMwdOhkEoUdaISzS5VizzEyaIyHRdV7A+1nHXeo1eYJ4Sv5r4XDPjk76aBO5Avds8HTvMToAp9cdFZ6FK+ND51gohtHPuBSIAhmEevPy7KIk4oN4c1HfAzMqhCbYa+LzyQIDAQAB
+    salt: 12345678901234567890123456789012
+    logout:
+      default-url: /?defaulturlafterlogout
+      destroy-session: true
+    central-logout:
+      default-url: http://localhost:8080/?defaulturlafterlogoutafteridp
+      logout-url-pattern: http://localhost:8080/.*
+
+
+logging:
+  level:
+    org:
+      pac4j:
+        core:
+          engine: DEBUG

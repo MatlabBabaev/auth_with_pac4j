@@ -1,0 +1,20 @@
+
+“
+java:S3655("PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(İĞ°8º¾Ùºò1J$d8815cd7-9d42-42df-b9f7-fac4bee05e0b
+˜
+java:S36552"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ûßğøÿÿÿÿ8¹¾Ùºò1J$07f43d6c-d194-4654-a038-ec5c10e58787
+˜
+java:S3655;"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Àï‰„ıÿÿÿÿ8º¾Ùºò1J$32001c22-9e3a-451d-8901-8b3b8dc4a2f5
+m	java:S106&"+Replace this use of System.out by a logger.(íûÓ¸8Á¾Ùºò1J$69f9edd7-4f21-4b6c-83ff-12154676a874
+m	java:S106("+Replace this use of System.out by a logger.(İĞ°8Á¾Ùºò1J$47a18178-0401-4c74-902b-bcac1eba3e70
+l	java:S106<"+Replace this use of System.out by a logger.(ãà¬%8É¾Ùºò1J$33b3c802-182e-40b5-8541-82accfde2a3a
+ƒ	java:S125@"<This block of commented-out lines of code should be removed.(ƒÂüÿÿÿÿ8Í¾Ùºò1J$627c2c90-e72a-4d55-91f6-6b0bb7461407
+
+java:S1128">Remove this unused import 'org.pac4j.core.context.WebContext'.(˜–™Ù8Í¾Ùºò1J$7e0a5f40-b994-45e9-a08a-1e833dbb28af
+
+java:S1128"HRemove this unused import 'org.pac4j.core.context.session.SessionStore'.(ñÑ÷’úÿÿÿÿ8Î¾Ùºò1J$11aeb5d5-905a-4f46-9667-9d425357b11f
+
+java:S1128	"7Remove this unused import 'org.pac4j.core.store.Store'.(†•çüÿÿÿÿ8Î¾Ùºò1J$cda6d6ed-2874-4f5b-a325-3d7c1ac905c9
+’
+java:S1128
+"JRemove this unused import 'org.pac4j.jee.context.session.JEESessionStore'.(î¨’şÿÿÿÿ8Î¾Ùºò1J$ed3112cc-bb9f-4cec-a6e1-77dfa8816066
